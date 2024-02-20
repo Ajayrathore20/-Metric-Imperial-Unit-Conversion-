@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+:root {
+    font-family: "Inter", sans-serif;
+    background-color: #161411;
+    user-select: none;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1019470/abacus-mathematics-addition-subtraction-1019470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    height: 1000px;
+    margin: 60px 0 0 0;
+}
+
+.entry {
+    margin: 0;
+    background-color: #1d85d4;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 285px;
+}
+
+h1 {
+    margin-top: 35px;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.0525em;
+}
+
+#start-value {
+    font-size: 58px;
+    font-weight: 800;
+    border: 2.5px solid #ebe9ee;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 300px;
+    height: 83px;
+    color: white;
+    text-align: center;
+    outline: none;
+    user-select: text;
+    margin-top: 25px;
+}
+
+#convert {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    color: #3D3D3D;
+    border-radius: 5px;
+    box-shadow: 0 1 2 #0000000c;
+    border: none;
+    padding: 15px;
+    width: 117px;
+    height: 42px;
+}
+
+.results {
+    background-color: #F4F4F4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 444px;
+}
+
+.conversion {
+    width: 500px;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5A537B;
+    margin: 0;
+}
+
+.conversion > p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1859e6;
+    margin: 15px 0 0 0;
+}
